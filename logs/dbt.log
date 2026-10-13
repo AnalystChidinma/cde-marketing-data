@@ -1,0 +1,28 @@
+[0m14:42:18.408356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73a248dc42f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73a24b4040b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73a249763140>]}
+
+
+============================== 14:42:18.470937 | b3455b22-b598-47cd-9c71-9d607dd977ff ==============================
+[0m14:42:18.470937 [info ] [MainThread]: Running with dbt=1.12.5
+[0m14:42:18.472471 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'log_path': 'logs', 'version_check': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'no_print': 'None', 'warn_error': 'None', 'partial_parse': 'True', 'maximum_seed_size_mib': '1', 'use_experimental_parser': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'quiet': 'False', 'invocation_command': 'dbt init marketing_analytics --skip-profile-setup', 'log_cache_events': 'False', 'debug': 'False', 'write_json': 'True', 'fail_fast': 'False', 'profiles_dir': '/home/chidinma/.dbt', 'hints_enabled': 'True', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'cache_selected_only': 'False'}
+[0m14:42:18.634685 [debug] [MainThread]: Starter project path: /home/chidinma/projects/github_repos/cde-marketing-data/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m14:42:18.655317 [info ] [MainThread]: Your new dbt project "marketing_analytics" was created!
+Initialized new project in /home/chidinma/projects/github_repos/cde-marketing-data/marketing_analytics/marketing_analytics
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:42:18.657818 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.39870986, "process_in_blocks": "31008", "process_kernel_time": 1.056701, "process_mem_max_rss": "129836", "process_out_blocks": "36608", "process_user_time": 7.651974}
+[0m14:42:18.658740 [debug] [MainThread]: Command `dbt init` succeeded at 14:42:18.658553 after 0.40 seconds
+[0m14:42:18.659510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73a2497df1d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73a248da7440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73a2488c86b0>]}
+[0m14:42:18.660424 [debug] [MainThread]: Flushing usage events
+[0m14:22:20.142694 [debug] [MainThread]: An error was encountered while trying to flush usage events
